@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Dinda Dwi Rosdiyanti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">D.D.R</div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Dinda Dwi Rosdiyanti</h1>
+        <p>Mahasiswa Teknik Informatika | Frontend Developer</p>
+        <a href="#contact" class="btn">Hubungi Saya</a>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <div class="profile-img">
+                    <img src="img/dinda.jpg" width='300' height='500' alt="Profile">
+                </div>
+                <div class="bio-data">
+                    <div class="bio-item">
+                        <span class="bio-label">Nama Lengkap</span>
+                        <span class="bio-value">Dinda Dwi Rosdiyanti</span>
+                    </div>
+                    <div class="bio-item">
+                        <span class="bio-label">Tempat, Tanggal Lahir</span>
+                        <span class="bio-value">Kuningan, 19 Desember 2007</span>
+                    </div>
+                    <div class="bio-item">
+                        <span class="bio-label">Pendidikan Terakhir</span>
+                        <span class="bio-value">SMKN 4 Kuningan - Rekayasa Perangkat Lunak</span>
+                    </div>
+                    <div class="bio-item">
+                        <span class="bio-label">Status</span>
+                        <span class="bio-value">Mahasiswa Semester 1 Teknik Informatika</span>
+                    </div>
+                    <div class="bio-item">
+                        <span class="bio-label">Email</span>
+                        <span class="bio-value">d.dwi.rosdiyanti@gmail.com</span>
+                    </div>
+                    <div class="bio-item">
+                        <span class="bio-label">Instagram:</span>
+                        <span class="bio-value">@dndarsdynt</span>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                Saya adalah mahasiswa semester 1 Program Studi Teknik Informatika yang memiliki ketertarikan besar pada
+                dunia pemrograman, khususnya di bidang frontend development. Saya pernah mengikuti lomba Web Design
+                Digifest 2024 dan berhasil meraih Juara 2, yang menjadi pengalaman berharga dalam mengasah kemampuan
+                desain dan pengembangan web. Saya memiliki semangat belajar yang tinggi, menyukai tantangan baru, dan
+                terus berusaha mengembangkan keterampilan dalam desain antarmuka, UI/UX, serta pemrograman web modern
+                agar dapat menciptakan karya digital yang bermanfaat dan menarik.
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>HTML & CSS</h3>
+                    <p>Menguasai HTML5 dan CSS3 untuk membangun struktur dan styling website yang modern dan responsive
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Mampu membuat website interaktif dengan JavaScript untuk meningkatkan user experience</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Berpengalaman dalam mendesain antarmuka web yang menarik dan user-friendly dengan fokus pada
+                        UI/UX</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Mampu membuat website yang dapat beradaptasi dengan berbagai ukuran layar dan perangkat</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">🏆</div>
+                    <div class="portfolio-info">
+                        <h3>Web Design Digifest 2024 - Juara 2</h3>
+                        <p><strong>Judul Proyek: Suicide Prevention Website</strong><br>
+                            Website yang dikembangkan untuk kompetisi Web Design di Digifest 2024 Politeknik Negeri
+                            Subang. Proyek ini menggunakan HTML, CSS, dan JavaScript untuk menciptakan platform
+                            informasi dan awareness tentang pencegahan bunuh diri.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">📱</div>
+                    <div class="portfolio-info">
+                        <h3>Aplikasi Kontrol Kesehatan Lansia</h3>
+                        <p>Desain aplikasi mobile untuk monitoring kesehatan lansia yang dikembangkan menggunakan
+                            Flutter dan Dart. Aplikasi ini memiliki fitur pelacakan kesehatan, pengingat obat, dan
+                            monitoring aktivitas harian.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">🌐</div>
+                    <div class="portfolio-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Website portfolio pribadi yang menampilkan profil, keahlian, dan proyek-proyek yang telah
+                            dikerjakan. Dibangun dengan HTML, CSS, dan JavaScript dengan desain yang clean dan
+                            professional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email</strong>
+                        <p>d.dwi.rosdiyanti@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <strong>Instagram</strong>
+                        <p>@dndarsdynt</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <strong>Lokasi</strong>
+                        <p>Kuningan, Jawa Barat, Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dinda Dwi Rosdiyanti. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu
+                    document.getElementById('navMenu').classList.remove('active');
+                }
+            });
+        });
+
+        // Add scroll effect to header
+        let lastScroll = 0;
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            const currentScroll = window.pageYOffset;
+
+            if (currentScroll <= 0) {
+                header.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+            } else {
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.2)';
+            }
+
+            lastScroll = currentScroll;
+        });
+    </script>
+</body>
+
+</html>
